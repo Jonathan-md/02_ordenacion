@@ -14,27 +14,3 @@ int InterDirectoDer(int A[],int n){
 	}
 	return 0;
 }
-
-int main(){
-    int A[100], n;
-
-    cout<<"Ingrese la cantidad de elementos: ";
-    cin>>n;
-
-    for(int i=0;i<n;i++){
-        cout<<"A["<<i<<"]: ";
-        cin>>A[i];
-    }
-
-    InterDirectoDer(A,n);
-
-    cout<<"\nArreglo ordenado:\n";
-
-    for(int i=0;i<n;i++){
-        cout<<A[i]<<" ";
-    }
-
-    return 0;
-}
-	
-
