@@ -13,4 +13,4 @@ int InterDirectoDer(int A[],int n){
 		}
 	}
 	return 0;
-}
+}       
