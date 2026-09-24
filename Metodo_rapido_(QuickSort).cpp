@@ -41,3 +41,18 @@ int Reduce(int A[],int inicio,int final){
 int QuickSort(int A[],int n){
 	return Reduce(A,1,n);
 }
+
+int main(){
+	int A[90],n;
+	
+	cin>>n;
+	for(int i=1;i<=n;i++){
+		cin>>A[i];
+	}
+	QuickSort(A,n);
+	for(int i=1;i<=n;i++){
+		cout<<A[i]<<" ";
+	}
+	return 0;
+}
+
