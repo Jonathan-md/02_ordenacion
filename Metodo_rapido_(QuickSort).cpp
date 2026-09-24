@@ -17,7 +17,7 @@ int Reduce(int A[],int inicio,int final){
 			A[pos]=A[der];
 			A[der]=aux;
 			pos=der;
-			while(A[pos]!=A[izq] && pos!=izq){
+			while(A[pos]>=A[izq] && pos!=izq){
 				izq++;
 			}
 			if(pos!=izq){
