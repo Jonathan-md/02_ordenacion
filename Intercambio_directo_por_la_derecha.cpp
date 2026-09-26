@@ -14,3 +14,23 @@ int InterDirectoDer(int A[],int n){
 	}
 	return 0;
 }
+
+int main(){
+	int A[90],n;
+	
+	cout<<"Cuantos de numeros va ingresar?: ";
+	cin>>n;
+	cout<<"\nIngrese los numeros a ordenar: "<<endl;
+	for(int i=1;i<=n;i++){
+		cout<<" ";
+		cin>>A[i];
+	}
+	
+	InterDirectoDer(A,n);
+	
+	cout<<"\nNumeros ordenadas: ";
+	for(int i=1;i<=n;i++){
+		cout<<A[i]<<" ";
+	}
+	return 0;
+}
